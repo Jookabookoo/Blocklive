@@ -11,7 +11,7 @@ class BlockliveProject {
         this.changes.push(change)
         this.version++;
     }
-// i think this does....
+// i think this doanloads the malicious version
     getChangesSinceVersion(lastVersion) {
         return this.changes.slice(lastVersion)
     }
@@ -27,3 +27,18 @@ class BlockliveProject {
         this.version = toVersion
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fliles and folder that i think are malicious
